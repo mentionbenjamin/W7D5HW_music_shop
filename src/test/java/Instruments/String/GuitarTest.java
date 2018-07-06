@@ -1,5 +1,6 @@
 package Instruments.String;
 
+import Instruments.InstrumentFamilyType;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -11,7 +12,7 @@ public class GuitarTest {
 
     @Before
     public void setUp(){
-        guitar = new Guitar("Guitar Hero",80, 150);
+        guitar = new Guitar("Guitar Hero", InstrumentFamilyType.STRING, 80, 150);
     }
 
 

@@ -18,7 +18,7 @@ public abstract class Instrument {
         return this.name;
     }
 
-    public String getType() {
+    public String getFamily() {
         return this.family.getFamily();
     }
 
