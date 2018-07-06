@@ -1,5 +1,6 @@
 package Instruments.Percussion;
 
+import Instruments.Percussion.Drums;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -11,12 +12,12 @@ public class DrumsTest {
 
     @Before
     public void setUp(){
-        drums = new Drums("Drums E110", "Percussion", 100, 200);
+        drums = new Drums("Saxophone G621", 80,150);
     }
 
     @Test
     public void hasName(){
-        assertEquals("Drums E110", drums.getName());
+        assertEquals("Saxophone G621", drums.getName());
     }
 
 }

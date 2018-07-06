@@ -11,12 +11,9 @@ public class GuitarTest {
 
     @Before
     public void setUp(){
-        guitar = new Guitar("Guitar P203", "String", 120, 180);
+        guitar = new Guitar("Guitar Hero",80, 150);
     }
 
-    @Test
-    public void hasName(){
-        assertEquals("Guitar P203", guitar.getName());
-    }
+
 
 }
