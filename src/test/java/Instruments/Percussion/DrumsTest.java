@@ -13,13 +13,17 @@ public class DrumsTest {
 
     @Before
     public void setUp(){
-        drums = new Drums("Saxophone G621", InstrumentFamilyType.BRASS ,80,150);
+        drums = new Drums("Drums 3000", InstrumentFamilyType.PERCUSSION, 150, 300);
     }
 
     @Test
     public void hasName(){
-        assertEquals("Saxophone G621", drums.getName());
+        assertEquals("Drums 3000", drums.getName());
     }
 
+    @Test
+    public void hasFamily(){
+        assertEquals("Percussion", drums.getFamily());
+    }
 
 }
