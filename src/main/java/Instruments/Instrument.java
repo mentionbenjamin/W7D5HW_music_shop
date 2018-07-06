@@ -3,11 +3,13 @@ package Instruments;
 public abstract class Instrument {
 
     protected String name;
+    protected InstrumentFamilyType family;
     protected int costPrice;
     protected int sellPrice;
 
-    public Instrument(String name, int costPrice, int sellPrice){
+    public Instrument(String name, InstrumentFamilyType family, int costPrice, int sellPrice){
         this.name = name;
+        this.family = family;
         this.costPrice = costPrice;
         this.sellPrice = sellPrice;
     }
@@ -16,8 +18,9 @@ public abstract class Instrument {
         return this.name;
     }
 
-
-
+    public String getType() {
+        return this.family.getFamily();
+    }
 
 
 }

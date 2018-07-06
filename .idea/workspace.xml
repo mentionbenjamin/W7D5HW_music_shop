@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85e1f441-afa0-4bfb-ab3f-45d7fd9b385c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Instruments/Brass/Saxophone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Instruments/Brass/Saxophone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Instruments/Instrument.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Instruments/Instrument.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Instruments/Percussion/Drums.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Instruments/Percussion/Drums.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Instruments/String/Guitar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Instruments/String/Guitar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/Instruments/Brass/SaxophoneTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/Instruments/Brass/SaxophoneTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/Instruments/Percussion/DrumsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/Instruments/Percussion/DrumsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/Instruments/String/GuitarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/Instruments/String/GuitarTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Brass/Saxophone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Brass/Saxophone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/InstrumentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/InstrumentFamilyType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Percussion/Drums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Percussion/Drums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/String/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/String/Guitar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Instruments/Brass/SaxophoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Instruments/Brass/SaxophoneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Instruments/Percussion/DrumsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Instruments/Percussion/DrumsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Instruments/String/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Instruments/String/GuitarTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -36,17 +22,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="InstrumentFamilyType.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InstrumentFamilyType.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Instruments/InstrumentFamilyType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            <state relative-caret-position="240">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="e#206#207#0" expanded="true" />
                 <element signature="e#225#226#0" expanded="true" />
                 <element signature="e#279#280#0" expanded="true" />
                 <element signature="e#313#314#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Instrument.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Instruments/Instrument.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding>
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Saxophone.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Instruments/Brass/Saxophone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -61,6 +69,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>PERCUSSION</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -367,20 +380,20 @@
         <option value="$PROJECT_DIR$/src/test/java/Instruments/String/ViolinTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Behaviours/IBrass.java" />
         <option value="$PROJECT_DIR$/src/main/java/Instruments/InstrumentType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Instruments/Brass/Saxophone.java" />
         <option value="$PROJECT_DIR$/src/main/java/Instruments/Percussion/Drums.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" />
         <option value="$PROJECT_DIR$/src/test/java/Instruments/Percussion/DrumsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Instruments/Brass/SaxophoneTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Instruments/String/Guitar.java" />
         <option value="$PROJECT_DIR$/src/test/java/Instruments/String/GuitarTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Instruments/InstrumentFamilyType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Instruments/Brass/Saxophone.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="720" />
     <option name="height" value="842" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -678,7 +691,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="842" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="842" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -689,9 +702,9 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1932886" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1932886" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.15436241" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.15302013" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1595136" />
@@ -843,17 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Instruments/Brass/Saxophone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Instruments/Percussion/Drums.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -869,13 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Instruments/Instrument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -920,14 +915,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Instruments/InstrumentFamilyType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="240">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="e#206#207#0" expanded="true" />
             <element signature="e#225#226#0" expanded="true" />
             <element signature="e#279#280#0" expanded="true" />
             <element signature="e#313#314#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Instruments/Instrument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Instruments/Brass/Saxophone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
