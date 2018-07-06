@@ -1,4 +1,4 @@
 package Instruments.Brass;
 
-public class Trumpet {
+public class SaxophoneTest {
 }

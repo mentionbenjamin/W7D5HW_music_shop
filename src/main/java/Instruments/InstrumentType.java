@@ -1,4 +1,4 @@
 package Instruments;
 
-public interface InstrumentType {
+public enum InstrumentType {
 }

@@ -1,4 +1,4 @@
 package Instruments.Percussion;
 
-public class Piano {
+public class DrumsTest {
 }

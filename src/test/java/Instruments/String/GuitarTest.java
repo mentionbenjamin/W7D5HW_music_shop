@@ -1,4 +1,4 @@
 package Instruments.String;
 
-public class Violin {
+public class GuitarTest {
 }
