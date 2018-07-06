@@ -1,6 +1,8 @@
 package Instruments;
 
-public abstract class Instrument {
+import Behaviours.IPlay;
+
+public abstract class Instrument implements IPlay {
 
     protected String name;
     protected InstrumentFamilyType family;

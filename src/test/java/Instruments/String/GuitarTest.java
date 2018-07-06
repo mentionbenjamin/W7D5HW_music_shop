@@ -35,4 +35,9 @@ public class GuitarTest {
         assertEquals(200, guitar.getSellPrice());
     }
 
+    @Test
+    public void instrumentHasSound(){
+        assertEquals("Guitar Noise", guitar.makeSound());
+    }
+
 }

@@ -9,4 +9,9 @@ public class Saxophone extends Instrument {
         super(name, family, costPrice, sellPrice);
     }
 
+    @Override
+    public String makeSound(){
+        return "Sax Noise";
+    }
+
 }

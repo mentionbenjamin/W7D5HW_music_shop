@@ -36,4 +36,9 @@ public class DrumsTest {
         assertEquals(300, drums.getSellPrice());
     }
 
+    @Test
+    public void instrumentHasSound(){
+        assertEquals("Drums Noise", drums.makeSound());
+    }
+
 }

@@ -9,4 +9,9 @@ public class Drums extends Instrument {
         super(name, family, costPrice, sellPrice);
     }
 
+    @Override
+    public String makeSound(){
+        return "Drums Noise";
+    }
+
 }
