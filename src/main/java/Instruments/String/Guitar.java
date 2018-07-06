@@ -1,4 +1,11 @@
 package Instruments.String;
 
-public class Guitar {
+import Instruments.Instrument;
+
+public class Guitar extends Instrument {
+
+    public Guitar(String name, String family, int costPrice, int sellPrice){
+        super(name, family, costPrice, sellPrice);
+    }
+
 }

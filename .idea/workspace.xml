@@ -540,7 +540,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DrumsTest.hasName">
+  <component name="RunManager" selected="JUnit.GuitarTest.hasName">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -556,6 +556,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Instruments.Percussion" />
       <option name="MAIN_CLASS_NAME" value="Instruments.Percussion.DrumsTest" />
+      <option name="METHOD_NAME" value="hasName" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="GuitarTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicShop_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Instruments.String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Instruments.String" />
+      <option name="MAIN_CLASS_NAME" value="Instruments.String.GuitarTest" />
       <option name="METHOD_NAME" value="hasName" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -631,9 +654,11 @@
     <list>
       <item itemvalue="JUnit.SaxophoneTest.hasName" />
       <item itemvalue="JUnit.DrumsTest.hasName" />
+      <item itemvalue="JUnit.GuitarTest.hasName" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GuitarTest.hasName" />
         <item itemvalue="JUnit.DrumsTest.hasName" />
         <item itemvalue="JUnit.SaxophoneTest.hasName" />
       </list>
@@ -651,6 +676,14 @@
       <updated>1530873861822</updated>
     </task>
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SaxophoneTest_hasName - 2018.07.06 at 13h 14m 50s.xml">
+      <configuration name="SaxophoneTest.hasName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DrumsTest_hasName - 2018.07.06 at 13h 17m 45s.xml">
+      <configuration name="DrumsTest.hasName" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="842" extended-state="0" />
