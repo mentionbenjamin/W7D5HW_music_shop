@@ -12,7 +12,7 @@ public class GuitarTest {
 
     @Before
     public void setUp(){
-        guitar = new Guitar("Guitar Hero", InstrumentFamilyType.STRING, 80, 150);
+        guitar = new Guitar("Guitar Hero", InstrumentFamilyType.STRING, 100, 200);
     }
 
     @Test

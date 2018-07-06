@@ -25,4 +25,9 @@ public class SaxophoneTest {
         assertEquals("Brass", saxophone.getFamily());
     }
 
+    @Test
+    public void hasCostPrice(){
+        assertEquals(80, saxophone.getCostPrice());
+    }
+
 }

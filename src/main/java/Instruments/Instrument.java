@@ -22,5 +22,11 @@ public abstract class Instrument {
         return this.family.getFamily();
     }
 
+    public int getCostPrice() {
+        return this.costPrice;
+    }
+
+
+
 
 }
