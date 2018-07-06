@@ -516,7 +516,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SaxophoneTest.hasCostPrice">
+  <component name="RunManager" selected="JUnit.SaxophoneTest.hasSellPrice">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -528,29 +528,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="DrumsTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MusicShop_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Instruments.Percussion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Instruments.Percussion" />
-      <option name="MAIN_CLASS_NAME" value="Instruments.Percussion.DrumsTest" />
-      <option name="METHOD_NAME" value="hasName" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -629,6 +606,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="SaxophoneTest.hasSellPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicShop_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Instruments.Brass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Instruments.Brass" />
+      <option name="MAIN_CLASS_NAME" value="Instruments.Brass.SaxophoneTest" />
+      <option name="METHOD_NAME" value="hasSellPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -668,19 +668,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DrumsTest.hasName" />
       <item itemvalue="JUnit.GuitarTest.hasName" />
       <item itemvalue="JUnit.SaxophoneTest.hasFamily" />
       <item itemvalue="JUnit.All in MusicShop_test" />
       <item itemvalue="JUnit.SaxophoneTest.hasCostPrice" />
+      <item itemvalue="JUnit.SaxophoneTest.hasSellPrice" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SaxophoneTest.hasSellPrice" />
         <item itemvalue="JUnit.SaxophoneTest.hasCostPrice" />
         <item itemvalue="JUnit.All in MusicShop_test" />
         <item itemvalue="JUnit.SaxophoneTest.hasFamily" />
         <item itemvalue="JUnit.GuitarTest.hasName" />
-        <item itemvalue="JUnit.DrumsTest.hasName" />
       </list>
     </recent_temporary>
   </component>

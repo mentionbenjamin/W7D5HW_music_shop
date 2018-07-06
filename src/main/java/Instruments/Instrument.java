@@ -26,6 +26,12 @@ public abstract class Instrument {
         return this.costPrice;
     }
 
+    public int getSellPrice() {
+        return this.sellPrice;
+    }
+
+
+
 
 
 
