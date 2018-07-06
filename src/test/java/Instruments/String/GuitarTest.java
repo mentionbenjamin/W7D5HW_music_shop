@@ -25,4 +25,14 @@ public class GuitarTest {
         assertEquals("String", guitar.getFamily());
     }
 
+    @Test
+    public void hasCostPrice(){
+        assertEquals(100, guitar.getCostPrice());
+    }
+
+    @Test
+    public void hasSellPrice(){
+        assertEquals(200, guitar.getSellPrice());
+    }
+
 }
