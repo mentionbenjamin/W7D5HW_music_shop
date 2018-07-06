@@ -15,6 +15,14 @@ public class GuitarTest {
         guitar = new Guitar("Guitar Hero", InstrumentFamilyType.STRING, 80, 150);
     }
 
+    @Test
+    public void hasName(){
+        assertEquals("Guitar Hero", guitar.getName());
+    }
 
+    @Test
+    public void hasFamily(){
+        assertEquals("String", guitar.getFamily());
+    }
 
 }
