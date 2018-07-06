@@ -26,4 +26,14 @@ public class DrumsTest {
         assertEquals("Percussion", drums.getFamily());
     }
 
+    @Test
+    public void hasCostPrice(){
+        assertEquals(150, drums.getCostPrice());
+    }
+
+    @Test
+    public void hasSellPrice(){
+        assertEquals(300, drums.getSellPrice());
+    }
+
 }
