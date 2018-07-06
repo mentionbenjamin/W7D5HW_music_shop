@@ -16,6 +16,11 @@ public class SaxophoneTest {
     }
 
     @Test
+    public void hasName(){
+        assertEquals("Saxophone G621", saxophone.getName());
+    }
+
+    @Test
     public void hasFamily(){
         assertEquals("Brass", saxophone.getFamily());
     }

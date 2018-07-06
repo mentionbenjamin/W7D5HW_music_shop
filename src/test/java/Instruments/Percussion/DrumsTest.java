@@ -21,9 +21,5 @@ public class DrumsTest {
         assertEquals("Saxophone G621", drums.getName());
     }
 
-    @Test
-    public void hasFamily(){
-
-    }
 
 }
