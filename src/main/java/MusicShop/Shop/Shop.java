@@ -1,4 +1,4 @@
-package Shop;
+package MusicShop.Shop;
 
 public class Shop {
 

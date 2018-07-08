@@ -1,4 +1,4 @@
-package Shop.Instruments;
+package MusicShop.Behaviours;
 
 public interface IPlay {
 

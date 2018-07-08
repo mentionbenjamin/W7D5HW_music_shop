@@ -1,8 +1,6 @@
-package Shop.Instruments;
+package MusicShop.Instruments;
 
-import Shop.Behaviours.ISell;
-import Shop.Instruments.Instrument;
-import Shop.Instruments.InstrumentFamilyType;
+import MusicShop.Behaviours.ISell;
 
 public class Drums extends Instrument implements ISell {
 

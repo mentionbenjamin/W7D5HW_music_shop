@@ -1,15 +1,13 @@
-package Shop.Instruments;
+package MusicShop.Instruments;
 
-import Shop.Behaviours.ISell;
-import Shop.Instruments.Instrument;
-import Shop.Instruments.InstrumentFamilyType;
+import MusicShop.Behaviours.ISell;
 
-public class Saxophone extends Instrument implements ISell {
+public class Guitar extends Instrument implements ISell {
 
     double costPrice;
     double sellPrice;
 
-    public Saxophone(String name, InstrumentFamilyType family, double costPrice, double sellPrice){
+    public Guitar(String name, InstrumentFamilyType family, double costPrice, double sellPrice){
         super(name, family);
         this.costPrice = costPrice;
         this.sellPrice = sellPrice;
@@ -17,7 +15,7 @@ public class Saxophone extends Instrument implements ISell {
 
     @Override
     public String makeSound(){
-        return "Saxophone Noise";
+        return "Guitar Noise";
     }
 
     @Override

@@ -1,7 +1,8 @@
-package Shop.Instruments;
+package MusicShop.Instruments;
 
-import Shop.Behaviours.ISell;
-import Shop.Stock;
+import MusicShop.Behaviours.IPlay;
+import MusicShop.Behaviours.ISell;
+import MusicShop.Shop.Stock;
 
 public abstract class Instrument extends Stock implements IPlay, ISell {
 

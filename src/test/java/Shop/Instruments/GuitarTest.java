@@ -1,7 +1,7 @@
 package Shop.Instruments;
 
-import Shop.Instruments.Guitar;
-import Shop.Instruments.InstrumentFamilyType;
+import MusicShop.Instruments.Guitar;
+import MusicShop.Instruments.InstrumentFamilyType;
 import org.junit.Before;
 import org.junit.Test;
 

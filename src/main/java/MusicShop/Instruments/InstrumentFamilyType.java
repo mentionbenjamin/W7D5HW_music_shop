@@ -1,4 +1,4 @@
-package Shop.Instruments;
+package MusicShop.Instruments;
 
 public enum InstrumentFamilyType {
 

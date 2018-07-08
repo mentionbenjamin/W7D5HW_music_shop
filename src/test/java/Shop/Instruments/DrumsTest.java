@@ -1,7 +1,7 @@
 package Shop.Instruments;
 
-import Shop.Instruments.InstrumentFamilyType;
-import Shop.Instruments.Drums;
+import MusicShop.Instruments.InstrumentFamilyType;
+import MusicShop.Instruments.Drums;
 import org.junit.Before;
 import org.junit.Test;
 

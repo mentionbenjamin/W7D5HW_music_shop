@@ -1,4 +1,4 @@
-package Shop.Behaviours;
+package MusicShop.Behaviours;
 
 public interface ISell {
 
