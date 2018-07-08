@@ -27,13 +27,18 @@ public class StockTest {
         stockItems = new ArrayList<>();
         stockItems.add(drums);
         stockItems.add(guitar);
-        stockItems.add(saxophone);
 
         stock = new Stock(stockItems);
     }
 
     @Test
     public void hasStock(){
+        assertEquals(2, stock.getStockItems());
+    }
+
+    @Test
+    public void canAddToStock(){
+        stockItems.add(saxophone);
         assertEquals(3, stock.getStockItems());
     }
 
