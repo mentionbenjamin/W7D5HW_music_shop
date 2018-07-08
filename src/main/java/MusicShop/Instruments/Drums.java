@@ -4,13 +4,8 @@ import MusicShop.Behaviours.ISell;
 
 public class Drums extends Instrument implements ISell {
 
-    double costPrice;
-    double sellPrice;
-
     public Drums(String name, InstrumentFamilyType family, double costPrice, double sellPrice){
-        super(name, family);
-        this.costPrice = costPrice;
-        this.sellPrice = sellPrice;
+        super(name, family, costPrice, sellPrice);
     }
 
     @Override

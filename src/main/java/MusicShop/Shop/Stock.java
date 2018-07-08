@@ -3,24 +3,17 @@ package MusicShop.Shop;
 import MusicShop.Behaviours.ISell;
 
 import java.util.ArrayList;
+import java.util.BitSet;
 
-public abstract class Stock {
+public class Stock {
 
-    protected ArrayList<ISell> stock;
+    protected ArrayList<ISell> stockItems;
 
-    public Stock(ArrayList<ISell> stock){
-        this.stock = stock;
+    public Stock(ArrayList<ISell> stockItems){
+        this.stockItems = stockItems;
     }
 
-
-
-//    public int getCostPrice() {
-//        return this.costPrice;
-//    }
-//
-//    public int getSellPrice() {
-//        return this.sellPrice;
-//    }
-
-
+    public int getStockItems() {
+        return this.stockItems.size();
+    }
 }

@@ -4,13 +4,8 @@ import MusicShop.Behaviours.ISell;
 
 public class Guitar extends Instrument implements ISell {
 
-    double costPrice;
-    double sellPrice;
-
     public Guitar(String name, InstrumentFamilyType family, double costPrice, double sellPrice){
-        super(name, family);
-        this.costPrice = costPrice;
-        this.sellPrice = sellPrice;
+        super(name, family, costPrice, sellPrice);
     }
 
     @Override
