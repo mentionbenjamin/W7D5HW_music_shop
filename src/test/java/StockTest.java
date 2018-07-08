@@ -34,7 +34,7 @@ public class StockTest {
 
     @Test
     public void hasStock(){
-        assertEquals(3, stockItems.size());
+        assertEquals(3, stock.getStockItems());
     }
 
 

@@ -557,7 +557,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in MusicShop_test">
+  <component name="RunManager" selected="JUnit.StockTest.hasStock">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -647,19 +647,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SaxophoneTest.instrumentHasSound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StockTest.hasStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Shop.Behaviours.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Shop.Instruments" />
-      <option name="MAIN_CLASS_NAME" value="Shop.Instruments.SaxophoneTest" />
-      <option name="METHOD_NAME" value="instrumentHasSound" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StockTest" />
+      <option name="METHOD_NAME" value="hasStock" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -709,19 +703,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.SaxophoneTest.instrumentHasSound" />
       <item itemvalue="JUnit.All in MusicShop_test" />
       <item itemvalue="JUnit.DrumsTest.instrumentHasSound" />
       <item itemvalue="JUnit.DrumsTest.calculateMarkup" />
       <item itemvalue="JUnit.DrumsTest" />
+      <item itemvalue="JUnit.StockTest.hasStock" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StockTest.hasStock" />
         <item itemvalue="JUnit.All in MusicShop_test" />
         <item itemvalue="JUnit.DrumsTest" />
         <item itemvalue="JUnit.DrumsTest.calculateMarkup" />
         <item itemvalue="JUnit.DrumsTest.instrumentHasSound" />
-        <item itemvalue="JUnit.SaxophoneTest.instrumentHasSound" />
       </list>
     </recent_temporary>
   </component>
