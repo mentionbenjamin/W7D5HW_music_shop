@@ -42,6 +42,12 @@ public class StockTest {
         assertEquals(3, stock.getStockItems());
     }
 
+    @Test
+    public void canRemoveFromStock(){
+        stockItems.remove(guitar);
+        assertEquals(1, stock.getStockItems());
+    }
+
 
 
 }
