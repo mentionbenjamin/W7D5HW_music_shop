@@ -8,8 +8,7 @@ public abstract class Instrument extends Stock implements IPlay, ISell {
     protected String name;
     protected InstrumentFamilyType family;
 
-    public Instrument(String name, InstrumentFamilyType family, int costPrice, int sellPrice){
-        super(costPrice, sellPrice, ArrayList<ISell>);
+    public Instrument(String name, InstrumentFamilyType family){
         this.name = name;
         this.family = family;
     }
@@ -20,14 +19,6 @@ public abstract class Instrument extends Stock implements IPlay, ISell {
 
     public String getFamily() {
         return this.family.getFamily();
-    }
-
-    public int getCostPrice() {
-        return this.costPrice;
-    }
-
-    public int getSellPrice() {
-        return this.sellPrice;
     }
 
 }

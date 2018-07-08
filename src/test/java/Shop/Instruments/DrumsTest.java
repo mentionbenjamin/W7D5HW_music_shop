@@ -28,17 +28,23 @@ public class DrumsTest {
 
     @Test
     public void hasCostPrice(){
-        assertEquals(150, drums.getCostPrice());
+        assertEquals(150, drums.getCostPrice(), 0);
     }
 
     @Test
     public void hasSellPrice(){
-        assertEquals(300, drums.getSellPrice());
+        assertEquals(300, drums.getSellPrice(), 0);
     }
 
     @Test
     public void instrumentHasSound(){
         assertEquals("Drums Noise", drums.makeSound());
     }
+
+    @Test
+    public void calculateMarkup(){
+        assertEquals(150, drums.calculateMarkup(), 0);
+    }
+
 
 }

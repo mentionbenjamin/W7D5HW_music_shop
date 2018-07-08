@@ -1,17 +1,24 @@
 package Shop;
 
+import Shop.Behaviours.ISell;
+
+import java.util.ArrayList;
+
 public abstract class Stock {
 
-    protected int costPrice;
-    protected int sellPrice;
-    protected Arraylist<ISell> stock;
+    protected ArrayList<ISell> stock;
 
-    public Stock(int costPrice, int sellPrice){
-        this.costPrice = costPrice;
-        this.sellPrice = sellPrice;
+    public Stock(){
         this.stock = stock;
     }
 
+//    public int getCostPrice() {
+//        return this.costPrice;
+//    }
+//
+//    public int getSellPrice() {
+//        return this.sellPrice;
+//    }
 
 
 }

@@ -28,17 +28,23 @@ public class SaxophoneTest {
 
     @Test
     public void hasCostPrice(){
-        assertEquals(80, saxophone.getCostPrice());
+        assertEquals(80, saxophone.getCostPrice(), 0);
     }
 
     @Test
     public void hasSellPrice(){
-        assertEquals(150, saxophone.getSellPrice());
+        assertEquals(150, saxophone.getSellPrice(), 0);
     }
 
     @Test
     public void instrumentHasSound(){
-        assertEquals("Sax Noise", saxophone.makeSound());
+        assertEquals("Saxophone Noise", saxophone.makeSound());
     }
+
+    @Test
+    public void calculateMarkup(){
+        assertEquals(70, saxophone.calculateMarkup(), 0);
+    }
+
 
 }
