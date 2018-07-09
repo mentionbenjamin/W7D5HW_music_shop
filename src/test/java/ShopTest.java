@@ -50,4 +50,11 @@ public class ShopTest {
         assertEquals(1300.0, shop.getTillBalance(), 0);
     }
 
+    @Test
+    public void canRefundItem(){
+        shop.refundItem(guitar);
+        assertEquals(800.0, shop.getTillBalance(), 0);
+    }
+
+
 }
