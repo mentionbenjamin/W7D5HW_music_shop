@@ -38,15 +38,15 @@ public class StockTest {
 
     @Test
     public void canAddToStock(){
-        stockItems.add(saxophone);
+        stock.addStock(saxophone);
         assertEquals(3, stock.getStockItems());
     }
 
-    @Test
-    public void canRemoveFromStock(){
-        stockItems.remove(guitar);
-        assertEquals(1, stock.getStockItems());
-    }
+//    @Test
+//    public void canRemoveFromStock(){
+//        stockItems.removeStock(guitar);
+//        assertEquals(1, stock.getStockItems());
+//    }
 
 
 

@@ -16,4 +16,10 @@ public class Stock {
     public int getStockItems() {
         return this.stockItems.size();
     }
+
+    public void addStock(ISell item){
+        stockItems.add(item);
+    }
+
 }
+
