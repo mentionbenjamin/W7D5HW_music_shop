@@ -1,8 +1,18 @@
 package MusicShop.Shop;
 
+import MusicShop.Behaviours.ISell;
+
+import java.util.ArrayList;
+
 public class Shop {
 
-//    ArrayList<ISell>sellableItems
+    protected Stock stockItems;
+    protected double tillBalance;
+
+    public Shop(Stock stockItems, double tillBalance){
+        this.stockItems = stockItems;
+        this.tillBalance = tillBalance;
+    }
 
 
 }
