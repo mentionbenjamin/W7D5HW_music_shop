@@ -44,4 +44,10 @@ public class ShopTest {
         assertEquals(1000, shop.getTillBalance(), 0);
     }
 
+    @Test
+    public void canSellItem(){
+        shop.sellItem(drums);
+        assertEquals(1300.0, shop.getTillBalance(), 0);
+    }
+
 }
