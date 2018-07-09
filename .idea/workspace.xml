@@ -530,7 +530,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StockTest.canAddToStock">
+  <component name="RunManager" selected="JUnit.All in MusicShop_test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -672,10 +672,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StockTest.canAddToStock" />
-        <item itemvalue="JUnit.StockTest.canRemoveFromStock" />
-        <item itemvalue="JUnit.StockTest.hasStock" />
         <item itemvalue="JUnit.All in MusicShop_test" />
+        <item itemvalue="JUnit.StockTest.canRemoveFromStock" />
+        <item itemvalue="JUnit.StockTest.canAddToStock" />
+        <item itemvalue="JUnit.StockTest.hasStock" />
         <item itemvalue="JUnit.DrumsTest" />
       </list>
     </recent_temporary>

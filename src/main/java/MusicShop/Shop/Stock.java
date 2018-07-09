@@ -21,5 +21,9 @@ public class Stock {
         stockItems.add(item);
     }
 
+    public void removeStock(ISell item){
+        stockItems.remove(item);
+    }
+
 }
 
