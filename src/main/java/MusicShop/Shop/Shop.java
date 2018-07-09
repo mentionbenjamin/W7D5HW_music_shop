@@ -14,5 +14,9 @@ public class Shop {
         this.tillBalance = tillBalance;
     }
 
+    public double getTillBalance(){
+        return this.tillBalance;
+    }
+
 
 }

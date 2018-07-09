@@ -31,12 +31,17 @@ public class ShopTest {
         stockItems.add(guitar);
 
         stock = new Stock(stockItems);
-        shop = new Shop(stock, 1000);
+        shop = new Shop(stock,1000);
     }
 
     @Test
-    public void hasStock(){
+    public void hasStock() {
         assertEquals(2, stock.getStockItems());
+    }
+
+    @Test
+    public void hasTillBalance() {
+        assertEquals(1000, shop.getTillBalance(), 0);
     }
 
 }
