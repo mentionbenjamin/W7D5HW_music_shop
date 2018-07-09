@@ -48,6 +48,11 @@ public class StockTest {
         assertEquals(1, stock.getStockItems());
     }
 
+    @Test
+    public void canGetTotalValueAtCostPrice(){
+        assertEquals(250.0, stock.getTotalValueAtCostPrice(), 0.01);
+    }
+
 
 
 }

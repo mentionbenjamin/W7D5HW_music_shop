@@ -25,5 +25,13 @@ public class Stock {
         stockItems.remove(item);
     }
 
+    public double getTotalValueAtCostPrice() {
+        double totalValueAtCostPrice = 0.0;
+        for (ISell item : stockItems){
+            totalValueAtCostPrice += item.getCostPrice();
+        }
+        return totalValueAtCostPrice;
+    }
+
 }
 

@@ -12,12 +12,12 @@ public class Shop {
     protected double tillBalance;
     private Stock stock;
 
-    public Shop(Stock stockItems, double tillBalance){
+    public Shop(Stock stockItems, double tillBalance) {
         this.stockItems = stockItems;
         this.tillBalance = tillBalance;
     }
 
-    public double getTillBalance(){
+    public double getTillBalance() {
         return this.tillBalance;
     }
 
@@ -25,8 +25,21 @@ public class Shop {
         tillBalance += item.getSellPrice();
     }
 
-
     public void refundItem(ISell item) {
         tillBalance -= item.getSellPrice();
     }
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
