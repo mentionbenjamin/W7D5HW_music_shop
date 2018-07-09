@@ -41,5 +41,9 @@ public class Stock {
         return totalValueAtSellPrice;
     }
 
+    public double getTotalProfit() {
+        double totalProfit = getTotalValueAtSellPrice() - getTotalValueAtCostPrice();
+        return totalProfit;
+    }
 }
 

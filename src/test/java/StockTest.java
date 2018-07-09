@@ -58,5 +58,9 @@ public class StockTest {
         assertEquals(500.0, stock.getTotalValueAtSellPrice(), 0.01);
     }
 
+    @Test
+    public void canGetTotalProfit(){
+        assertEquals(250.0, stock.getTotalProfit(), 0.01);
+    }
 
 }
