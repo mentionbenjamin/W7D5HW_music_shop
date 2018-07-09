@@ -33,5 +33,13 @@ public class Stock {
         return totalValueAtCostPrice;
     }
 
+    public double getTotalValueAtSellPrice() {
+        double totalValueAtSellPrice = 0.0;
+        for (ISell item : stockItems){
+            totalValueAtSellPrice += item.getSellPrice();
+        }
+        return totalValueAtSellPrice;
+    }
+
 }
 
